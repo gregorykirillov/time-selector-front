@@ -1,0 +1,67 @@
+@import "@vars/pads";
+@import "@vars/colors";
+@import "@vars/screens";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 80px;
+
+    background: $light-gray;
+
+    .titleText {
+        font-size: 24px;
+        font-weight: 600;
+
+        margin-left: 20px;
+        
+        color: black;
+    }
+
+    .titleButton {
+        display: flex;
+        align-items: center;
+
+        border: 0;
+        border-radius: 2px;
+        padding: 4px;
+
+        background: none;
+
+        transition: .3s;
+        cursor: pointer;
+
+        &:focus-visible {
+            box-shadow: 0 0 0 4px #a6bdee;
+        }
+    }
+
+    .leftSide, .rightSide {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .rightSide {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        .button {
+            margin-right: 20px;
+
+            background-color: rgb(235, 248, 255);
+            border: 1px solid rgb(51, 182, 255);
+            border-radius: 20px;
+            height: 40px;
+            padding: 0 10px;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "./node_modules/@wgwergwegwer/configs/src/eslintrc-base.js",
+        "plugin:react/recommended"
+    ],
+    "env": {
+        "es6": true
+    },
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": "off"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020
+    }
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+
+    &:focus-visible {
+        outline: none;
+    };
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    min-height: 100vh;
+    padding-top: 80px;
+    max-width: 90vw;
+    margin: 0 auto;
+}

@@ -1,0 +1,27 @@
+.timeBlock{
+    background-color: #1e1f21;
+
+    .timeWrapper {
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        height: 100%;
+        height: 80px;
+    }
+
+    .timeRows {
+        text-align: center;
+        border-top: 1px solid #5a5a5a;
+
+        .timeSlot {
+            color: #dddcdd;
+            height: 50px;
+
+            &:first-child {
+                height: 40px;
+            }
+        }
+    }
+}
